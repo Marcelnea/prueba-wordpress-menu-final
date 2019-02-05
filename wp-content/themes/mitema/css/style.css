@@ -1,0 +1,255 @@
+/*GENERAL*/
+
+*{
+  padding: auto;
+  margin: auto;
+}
+
+/*clases*/
+
+.banner{
+  background-position: center;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 500px;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+#titulo {
+  font-family: 'proxima_nova_cond_bold', sans-serif;
+  font-size: 90px;
+  vertical-align: middle;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  color: white;
+  background-color: #0000006e;
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+  display: inline;
+}
+
+#titulo2 {
+  font-family: 'proxima_nova_cond_light', sans-serif;
+  font-size: 90px;
+  vertical-align: middle;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  color: white;
+  background-color: #cc2924b3;
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+  display: inline;
+}
+
+#titular {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  vertical-align: middle;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  color: white;
+  width: 600px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.titulares {
+  padding-top: 180px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.navbar-brand{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin:0 auto;
+  padding: 0px;
+}
+
+.navbar-toggle {
+  z-index:3;
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -110px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.superior {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0px;
+}
+
+a.navbar-brand {
+  padding: 0px;
+}
+
+.right{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  display: block;
+  padding: 0px 100px 0px 20px;
+  margin: 0px 100px 0px 20px;
+}
+
+.left{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: red;
+  position: relative;
+  display: block;
+  padding: 0px 20px 0px 100px;
+  margin: 0px 20px 0px 100px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: red;
+}
+
+.footerHeader{
+  vertical-align:bottom;
+  background-color: #FFFFFF;
+  list-style:none;
+}
+
+.texto-footer {
+  color: #FFFFFF;
+  font-family: 'proxima_nova_cond_bold', sans-serif;
+}
+
+footer {
+  background-color: #CC1924;
+  vertical-align: bottom;
+}
+
+.mapa {
+  margin-bottom: 30px;
+}
+
+.sm>li {
+  display: inline-block;
+  max-width: 50px;
+  height: auto;
+  font-family: 'proxima_nova_cond_bold', sans-serif;
+}
+
+  #title-footer{
+  font-family: 'Playfair Display', serif;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.presentación {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  padding: 500px 0px 100px 0px;
+  font-family: 'proxima_nova_cond_light', sans-serif;
+  color: black;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+#h1 {
+  font-family: 'proxima_nova_cond_black', sans-serif;
+  font-size: 4rem;
+}
+
+.CARROUSEL {
+  vertical-align:center;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 1000px;
+}
+
+#h3 {
+  font-family: 'proxima_nova_cond_bold', sans-serif;
+  font-size: 1,5rem;
+}
+
+#h2 {
+  font-family: 'proxima_nova_cond_light', sans-serif;
+  font-size: 1,8rem;
+  color: #cc1924;
+
+}
+
+#h4 {
+  font-family: 'proxima_nova_cond_light', sans-serif;
+  font-size: 2rem;
+  color: #cc1924;
+
+}
+
+.menu {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  text-align: center;
+  color: #CC2924;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.fotofondo {
+  background-image: url("../images/sitio/il_fonti_di_modena.jpg");
+}
+
+#h1gris {
+  color: #707070;
+  font-family: 'proxima_nova_cond_black', sans-serif;
+  font-size: 3rem;
+  padding-bottom: 20px
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+hr {
+  color: #CC2924;
+  font-size: 10px;
+}
+
+#fuente {
+  font-family: 'proxima_nova_cond_light', sans-serif;
+}
+
+#pf {
+  font-family: 'proxima_nova_cond_bold', sans-serif;
+}
+
+ul.sm.iconos {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+.wpcf7-submit {
+  color:  #000000;
+}
+
+.wpcf7-date {
+  color: #CC2924;
+}
